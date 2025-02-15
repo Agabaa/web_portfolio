@@ -1,0 +1,40 @@
+
+body {
+    background-color: #82dfe9;
+    color:#9b3d3d; 
+    text-align: center;
+}
+
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.floating {
+    display: inline-block;
+    background: #3498db; 
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.floating:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
+
+
+
+
+
+
